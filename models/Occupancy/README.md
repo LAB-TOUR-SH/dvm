@@ -26,6 +26,7 @@ An atomic occupancy value. Can be used to describe the occupancy of a single poi
 |[location](https://schema.org/location)|[GeoCoordinates](https://schema.org/GeoCoordinates)|The geo coordinates of this entity.|1|
 |[address](https://schema.org/address)|[PostalAddress](https://schema.org/PostalAddress)|Physical address of the entity.|0..1|
 |[areaServed](https://schema.org/areaServed)|[Text](https://schema.org/Text)|The geographic area where a service or offered item is provided.|0..1|
+|measurementType|[Text](https://schema.org/Text)|Type of the measurement. E.g. observed, forecast etc.|0..1|
 |period|[Text](https://schema.org/Text)|Period to which this occupancy is assigned. Encoded as a ISO8601 duration.|0..1|
 |refBasis|[Text](https://schema.org/Text)|Identifier this occupancy is referring to.|0..1|
 |relativeValue|[Number](https://schema.org/Number)|Relative value of the occupancy, in relation to the maximum capacity of the entity.|0..1|
